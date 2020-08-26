@@ -1,5 +1,5 @@
 <template>
-  <b-navbar toggleable="lg" sticky>
+  <b-navbar class="navBar" toggleable="lg" fixed="top">
     <b-navbar-brand to="/">ANNEX AUTOMATION (M) SDN BHD</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -23,4 +23,10 @@
 export default {}
 </script>
 
-<style scoped></style>
+<style scoped>
+.navBar {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>

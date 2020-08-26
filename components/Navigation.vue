@@ -5,9 +5,9 @@
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item to="/#About">About</b-nav-item>
-        <b-nav-item to="/#Service">Services</b-nav-item>
-        <b-nav-item to="/#Contact">Contact</b-nav-item>
+        <b-nav-item :to="{ path: '/', hash: '#About' }">About</b-nav-item>
+        <b-nav-item :to="{ path: '/', hash: '#Service' }">Services</b-nav-item>
+        <b-nav-item :to="{ path: '/', hash: '#Contact' }">Contact</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->

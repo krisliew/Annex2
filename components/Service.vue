@@ -6,7 +6,9 @@
 
       <div class="row">
         <div class="featureRow">
-          <div class="circle2">A pic/logo</div>
+          <div class="circle2">
+            <v-icon name="industry" scale="3.5" />
+          </div>
           <h3 class="glow">Instrument Installation</h3>
           <br />
           <p class="lead mb-0">
@@ -15,7 +17,7 @@
           </p>
         </div>
         <div class="featureRow">
-          <div class="circle2">A pic/logo</div>
+          <div class="circle2"><v-icon name="tools" scale="3.5" /></div>
           <h3 class="glow">Factory electrical maintenance</h3>
           <br />
           <p class="lead mb-0">
@@ -24,7 +26,7 @@
           </p>
         </div>
         <div class="featureRow">
-          <div class="circle2">A pic/logo</div>
+          <div class="circle2"><v-icon name="plug" scale="3.5" /></div>
           <h3 class="glow">Electrical wiring</h3>
           <br />
           <p class="lead mb-0">

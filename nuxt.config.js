@@ -62,6 +62,7 @@ export default {
     transpile: [/^vue-awesome/],
   },
   router: {
+    // Deprecated Code: (Not recommended) - Will update this later
     scrollBehavior(to) {
       if (to.hash) {
         return window.scrollTo({
